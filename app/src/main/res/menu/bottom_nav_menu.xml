@@ -9,12 +9,12 @@
     <item
         android:id="@+id/navigation_cart"
         android:icon="@drawable/ic_cart"
-        android:title="@string/title_notifications" />
+        android:title="@string/cart" />
 
     <item
         android:id="@+id/navigation_dictionary"
         android:icon="@drawable/ic_dictionary"
-        android:title="@string/title_dashboard" />
+        android:title="@string/dictionary" />
 
     <item
         android:id="@+id/navigation_profile"
