@@ -6,17 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".ui.dictionary.DictionaryFragment">
 
-    <TextView
-        android:id="@+id/tv_title_page"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lyt_title_page"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/dictionary"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_title_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/dictionary"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -27,7 +34,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_title_page"
+        app:layout_constraintTop_toBottomOf="@+id/lyt_title_page"
         tools:ignore="MissingConstraints">
 
         <com.google.android.material.textfield.TextInputLayout

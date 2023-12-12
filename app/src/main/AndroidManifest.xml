@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BloomMateCapstone"
         tools:targetApi="31">
         <activity
+            android:name=".ui.seller.SellerActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.seller.SellerPostActivity"
             android:exported="false" />
         <activity
@@ -31,8 +34,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:windowSoftInputMode="adjustResize"
-            >
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

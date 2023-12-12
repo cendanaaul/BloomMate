@@ -131,7 +131,7 @@
         android:backgroundTint="@color/pink_100"
         android:drawableLeft="@drawable/ic_seller"
         android:drawablePadding="8dp"
-        android:text="Register as Seller"
+        android:text="Seller Corner"
         android:textAllCaps="false"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
