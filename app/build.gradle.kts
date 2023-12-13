@@ -57,4 +57,6 @@ dependencies {
 
     implementation("de.hdodenhof:circleimageview:3.1.0")
 
+    implementation ("com.github.clans:fab:1.6.4")
+
 }
