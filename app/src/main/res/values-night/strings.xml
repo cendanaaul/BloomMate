@@ -40,6 +40,9 @@
     <string name="post_a_flower">Post a Flower</string>
     <string name="seller_corner">Seller Corner</string>
     <string name="post_flower">Post Flower</string>
+    <string name="edit_flower">Edit Flower</string>
+    <string name="edit">Edit</string>
+    <string name="flower_title">Flower Title</string>
 
 
 </resources>

@@ -38,8 +38,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/lyt_title_page"
-        app:spanCount="2"
-        tools:listitem="@layout/item_product_list">
+        app:spanCount="1"
+        tools:listitem="@layout/item_product_list_seller">
 
     </androidx.recyclerview.widget.RecyclerView>
 
