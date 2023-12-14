@@ -59,4 +59,7 @@ dependencies {
 
     implementation ("com.github.clans:fab:1.6.4")
 
+    implementation ("com.airbnb.android:lottie:6.1.0")
+
+
 }
